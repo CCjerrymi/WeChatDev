@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classfiy",
+    "pages/classfiy/classfiy",
+    "pages/book/book",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/tab_icon1_active.png",
+        "iconPath": "image/tab_icon1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/tab_icon2_active.png",
+        "iconPath": "image/tab_icon2.png",
+        "pagePath": "pages/classfiy/classfiy",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "image/tab_icon3_active.png",
+        "iconPath": "image/tab_icon3.png",
+        "pagePath": "pages/book/book",
+        "text": "图书"
+      },
+      {
+        "selectedIconPath": "image/tab_icon4_active.png",
+        "iconPath": "image/tab_icon4.png",
+        "pagePath": "pages/my/my",
+        "text": "分类"
+      }
+    ]
+  }
+}
