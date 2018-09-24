@@ -1,0 +1,73 @@
+/* pages/read/read.wxss */
+/* pages/read/read.wxss */
+@import '/utils/icon/iconfont.wxss';
+page{
+  background: #f6f6f6;
+}
+.list{
+  background: #FFF;
+  padding: 30rpx;
+}
+.author{
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+}
+.author image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.big-pic{
+  width: 690rpx;
+  height: 300rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+}
+
+.title{
+  font-size: 40rpx;
+  line-height: 52rpx;
+  color: #444;
+  font-weight: bold;
+  margin-top: 25rpx;
+}
+
+.title text{
+  display: inline-block;
+  width: 74rpx;
+  height: 44rpx;
+  border-radius: 22rpx;
+  background: rgb(188, 120, 120);
+  font-size: 24rpx;
+  text-align: center;
+  color: white;
+  line-height: 44rpx;
+  font-weight: normal;
+  vertical-align: top;
+  position: relative;
+  top: 5rpx;
+
+}
+
+.infos{
+  color: rgb(127, 127, 127);
+  font-size: 28rpx;
+
+}
+
+.bottom{
+  width: 690rpx;
+  height: 30rpx;
+  display: flex;
+  margin-top: 30rpx;
+  justify-content: space-between;  
+  
+ 
+}
+
+.bottom text{
+  font-size: 28rpx;
+  color: rgb(192, 192, 192);  
+}

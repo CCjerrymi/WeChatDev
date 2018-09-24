@@ -1,4 +1,4 @@
-// pages/classfiy/classfiy.js
+// pages/desk/desk.js
 Page({
 
   /**

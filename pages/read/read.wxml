@@ -1,0 +1,29 @@
+<!--pages/read/read.wxml-->
+<view class='list' wx:for="{{artInfos}}" bindtap="getDetail" data-num="{{item.id}}">
+  <view class='author'>
+    <image src="{{item.aPhoto}}"></image>
+    <text>{{item.author}}</text>
+  </view>
+  <image class='big-pic' src="{{item.bigImg}}" mode='aspectFill'></image>
+
+   <view class='title'>
+      <text >热点</text>
+      {{item.tit}}   
+  </view>
+
+  <view class='infos'>
+    <text>
+      {{item.intro}}   
+    </text> 
+  </view>
+
+  <view class='bottom'>
+    <text>{{item.clickNum}}点击·4本书</text>
+
+    <view>
+      <text>{{item.great}}</text>
+      <text class='iconfont icon-dianzan'></text>
+    </view>
+  </view>
+
+</view>
